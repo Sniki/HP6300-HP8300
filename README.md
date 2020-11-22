@@ -5,11 +5,15 @@ HP 6300 and HP 8300 (all form factors) using OpenCore Bootloader
 ### Supported models:
 - HP 6300 Pro
 - HP 6300 SFF
-- HP Elite 8300 Tower
+- HP Elite 8300 CMT
 - HP Elite 8300 SFF
-- HP Elite 8300 USDT/CMT
+- HP Elite 8300 USDT
 
-**Note**: this is still in experimental stage (in terms of full support for older macOS versions and Dedicated GPU users, for now only compatible with "MacPro6,1" SMBIOS specifically for users with HD4000 that want to upgrade to Big Sur.
+**Note**: this is still work in progress !
+For now it is only available for users with Intel HD 4000 Graphics that want to upgrade to Big Sur.
+MacPro6,1 is the last supported Ivy Bridge model and that is the SMBIOS we used here.
+Will be updated soon with < Catalina support and for Dedicated GPU users as well.
+
 
 ### What works:
 - Secure Boot
@@ -20,6 +24,7 @@ HP 6300 and HP 8300 (all form factors) using OpenCore Bootloader
 - USB Ports
 - LAN
 - DisplayPort and DisplayPort Audio
+- Serial Port
 
 ### Issues:
 - DRM content
@@ -30,4 +35,4 @@ HP 6300 and HP 8300 (all form factors) using OpenCore Bootloader
 2. Replace EFI/OC/ACPI/ SSDT.aml with your generated Power Management SSDT from the script.
 (This one is for the i7-3770 CPU model that is available on my machine).
 
-Work in progress...
+### Work in progress...
