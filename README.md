@@ -1,5 +1,8 @@
 # HP6300-HP8300
 
+[![macOS](https://img.shields.io/badge/macOS-Big_Sur_11.0.1-green)](https://www.apple.com/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.3-green)](https://github.com/acidanthera/OpenCorePkg)
+
 HP 6300 and HP 8300 (all form factors) using OpenCore Bootloader
 
 ### Supported models:
