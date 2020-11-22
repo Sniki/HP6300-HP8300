@@ -33,7 +33,7 @@ HP 6300 and HP 8300 (all form factors) using OpenCore Bootloader
 - If you are using a Dedicated GPU: `iMacPro1,1` or even `MacPro6,1` for macOS Big Sur
 - if you are using a Dedicated GPU: `iMac13,2` for macOS Catalina and below
 
-**Note:**Dedicated GPU users have to remove `EFI/OC/Config.plist > DeviceProperties > PciRoot(0x0)/Pci(0x2,0x0)` entry.
+**Note**: Dedicated GPU users have to remove `EFI/OC/Config.plist > DeviceProperties > PciRoot(0x0)/Pci(0x2,0x0)` entry.
 
 To change the SMBIOS go to `EFI/OC/Config.plist > PlatformInfo > Generic > SystemProductName`
 Refer to SMBIOS Choices to pick the correct SMBIOS choice that fits your needs.
