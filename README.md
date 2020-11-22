@@ -37,8 +37,8 @@ Refer to SMBIOS Choices to pick the correct SMBIOS choice that fits your needs.
 
 ### Before testing:
 1. Generate your SMBIOS values (Serial, MLB, Rom and UUID) to have working iServices
-2. Replace `EFI/OC/ACPI/SSDT.aml` with your generated Power Management SSDT from the script.
-(This one is for the i7-3770 CPU model that is available on my machine).
+2. Replace `EFI/OC/ACPI/SSDT.aml` with your generated Power Management SSDT from the script. You can use your current **SSDT.aml** that you previously generated and that you currently use with Clover, it will be the same.
+(This one in the EFI is for the i7-3770 CPU model that i have on my machine, if you have same CPU as mine, you can keep this one).
 3. Dedicated GPU users have to remove `EFI/OC/Config.plist > DeviceProperties > PciRoot(0x0)/Pci(0x2,0x0)` entry.
 
 **Note**: this is still work in progress !
